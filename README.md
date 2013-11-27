@@ -1,13 +1,13 @@
-simpleslideshow
+# simpleslideshow
 ===============
 
 A very simple slideshow
 
 
-Class slideshow
+## Usage
 
-Example Usage
 
+```php
 var mySlide = new SimpleSlideshow(
      { containerSelector : "#mySlideshow",
          slideClass : "slide",
@@ -16,16 +16,22 @@ var mySlide = new SimpleSlideshow(
          transition : SimpleSlideshow.TRANSITION_FADE,
          autoplay : false
 );
+```
 
+## Params
 
-PARAMS ******************************
- containerSelector                 string
- slideClass                  string
- previousButtonSelector      string
- nextButtonSelector          string
- autoplay                    true | false
- startDelay                  int
- moveDelay                   int
- effectDelay                   int
- transition                  fade | slide
- direction                   forward | backward | upward | downward
+- containerSelector (string)
+- slideClass (string)
+- previousButtonSelector (string)
+- nextButtonSelector (string)
+- autoplay (true | false)
+- startDelay (int)
+- moveDelay (int)
+- effectDelay (int)
+- transition ("fade" | "slide")
+- direction ("forward" | "backward" | "upward" | "downward")
+
+## Todo
+
+- [ ] Add class constants for transitions and directions label
+- [ ] Chrome debugging
