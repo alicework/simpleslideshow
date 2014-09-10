@@ -79,16 +79,17 @@ function SimpleSlideshow(params) {
         }
 
         // Binds
+        var t = this;
         if ($(this.nextButtonSelector).length > 0)
             $(this.nextButtonSelector).click(function() {
-                this.stop();
-                this.next();
+                t.stop();
+                t.next();
                 return false;
             });
         if ($(this.previousButtonSelector).length > 0)
             $(this.previousButtonSelector).click(function() {
-                this.stop();
-                this.previous();
+                t.stop();
+                t.previous();
                 return false;
             });
 
