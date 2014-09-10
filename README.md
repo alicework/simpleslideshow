@@ -1,5 +1,4 @@
 # simpleslideshow
-===============
 
 A very simple slideshow
 
@@ -7,7 +6,7 @@ A very simple slideshow
 ## Usage
 
 
-```php
+```javascript
 var mySlide = new SimpleSlideshow(
      { containerSelector : "#mySlideshow",
          slideClass : "slide",
